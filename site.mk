@@ -21,6 +21,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
+	gluon-luci-private-wifi \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
@@ -51,13 +52,13 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 # Default priority for updates.
 # Specifies the maximum number of days until the update should be attempted
-# (thus lower numbers mean the priority is higher). It must be set either in 
+# (thus lower numbers mean the priority is higher). It must be set either in
 # site.mk or on the make manifest command line.
 # Updates will be attempted at night, between 04:00 and 5:00, with a specific
-# probability. When less than PRIORITY days have passed (calculated using 
-# DATE and the current time), the probability will proportional to the time 
-# passed. I.e. the update probability will start at 0 and slowly increase 
-# to 1 until PRIORITY days have passed. From then, the probability will be 
+# probability. When less than PRIORITY days have passed (calculated using
+# DATE and the current time), the probability will proportional to the time
+# passed. I.e. the update probability will start at 0 and slowly increase
+# to 1 until PRIORITY days have passed. From then, the probability will be
 # fixed at 1.
 
 GLUON_PRIORITY ?= 0.08
