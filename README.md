@@ -1,3 +1,3 @@
-# site-ffhf
+# Site Config Freifunk Herford
 
-site config for Freifunk Herford
+This is the Site Config for Freifunk Herford
