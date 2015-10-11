@@ -1,3 +1,3 @@
-# site-ffhf
+# Site Config Experimental Branch
 
-site config for Freifunk Herford
+This ist the Experimental Branch for Freifunk Herford.
