@@ -25,7 +25,7 @@ GLUON_SITE_PACKAGES := \
 	iptables \
 	iwinfo
 
-DEFAULT_GLUON_RELEASE := 0.6.1+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.6.0.1+exp$(shell date '+%Y%m%d')
 DEFAULT_GLUON_PRIORITY := 0
 
 # Allow overriding the release number and languages from the command line
