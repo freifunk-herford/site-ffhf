@@ -21,6 +21,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-luci-autoupdater \
 	gluon-luci-portconfig \
 	gluon-luci-wifi-config \
+	gluon-luci-private-wifi \
 	gluon-next-node \
 	gluon-mesh-vpn-fastd \
 	gluon-radvd \
@@ -60,7 +61,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # to 1 until PRIORITY days have passed. From then, the probability will be 
 # fixed at 1.
 
-GLUON_PRIORITY ?= 0.08
+GLUON_PRIORITY ?= 0.12
 
 # Languages to include
-GLUON_LANGS ?= de
+GLUON_LANGS ?= en de
