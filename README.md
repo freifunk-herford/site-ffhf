@@ -2,6 +2,7 @@
 
     git clone https://github.com/freifunk-gluon/gluon.git             # Get the official Gluon repository
     cd gluon
+    checkout v2016.1.4                                                # switch to stable release - never use master !
     git clone https://github.com/freifunk-herford/site-ffhf.git site  # Get the Freifunk Herford site repository
     make update                                                       # Get other repositories used by Gluon
     make -j4 GLUON_TARGET=ar71xx-generic                              # Build Gluon
