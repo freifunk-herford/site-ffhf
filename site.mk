@@ -1,34 +1,44 @@
+GLUON_FEATURES := \
+    autoupdater \
+    ebtables-filter-multicast \
+    ebtables-filter-ra-dhcp \
+    ebtables-source-filter \
+    mesh-batman-adv-15 \
+    mesh-vpn-fastd \
+    radvd \
+    respondd \
+    status-page \
+    web-advanced \
+    web-logging \
+    web-private-wifi \
+    web-wizard
+ 
+ 
 GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-15 \
-	gluon-alfred \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
+    gluon-alfred \
+    gluon-respondd \
+    gluon-autoupdater \
         gluon-config-mode-hostname \
         gluon-config-mode-mesh-vpn \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-core \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-luci-admin \
-	gluon-luci-autoupdater \
-	gluon-luci-portconfig \
-	gluon-luci-wifi-config \
-	gluon-luci-private-wifi \
-	gluon-next-node \
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
-	gluon-setup-mode \
-	gluon-status-page \
-	haveged \
-	iptables \
-	iwinfo
-
-DEFAULT_GLUON_RELEASE := 0.0.6
-
+    gluon-config-mode-geo-location \
+    gluon-config-mode-contact-info \
+    gluon-config-mode-core \
+    gluon-ebtables-filter-multicast \
+    gluon-ebtables-filter-ra-dhcp \
+    gluon-mesh-vpn-fastd \
+    gluon-radvd \
+    gluon-setup-mode \
+    gluon-status-page \
+    haveged \
+    iptables \
+    iwinfo
+ 
+DEFAULT_GLUON_RELEASE := 0.0.8
+ 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
-
-GLUON_PRIORITY ?= 0.2
-
+ 
+GLUON_PRIORITY ?= 0.21
+ 
+GLUON_REGION ?= eu
+ 
 GLUON_LANGS ?= en de
