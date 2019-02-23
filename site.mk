@@ -11,7 +11,6 @@ GLUON_FEATURES := \
     status-page \
     web-advanced \
     web-logging \
-    web-private-wifi \
     web-wizard
  
  
@@ -27,6 +26,7 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
     gluon-web-autoupdater \
+    gluon-web-private-wifi \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-mesh-vpn-fastd \
