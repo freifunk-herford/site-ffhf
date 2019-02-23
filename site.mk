@@ -18,6 +18,7 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-respondd \
+    gluon-autoupdater \
     gluon-config-mode-hostname \
     gluon-config-mode-autoupdater \
     gluon-config-mode-mesh-vpn \
