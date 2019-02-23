@@ -18,13 +18,14 @@ GLUON_FEATURES := \
 GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-respondd \
-    gluon-autoupdater \
     gluon-config-mode-hostname \
+    gluon-config-mode-autoupdater \
     gluon-config-mode-mesh-vpn \
     gluon-config-mode-geo-location \
     gluon-config-mode-geo-location-osm \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
+    gluon-web-autoupdater \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-mesh-vpn-fastd \
