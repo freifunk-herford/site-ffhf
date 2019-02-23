@@ -3,6 +3,7 @@ GLUON_FEATURES := \
     ebtables-filter-multicast \
     ebtables-filter-ra-dhcp \
     ebtables-source-filter \
+    ebtables-limit-arp \
     mesh-batman-adv-15 \
     mesh-vpn-fastd \
     radvd \
@@ -18,8 +19,8 @@ GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-respondd \
     gluon-autoupdater \
-        gluon-config-mode-hostname \
-        gluon-config-mode-mesh-vpn \
+    gluon-config-mode-hostname \
+    gluon-config-mode-mesh-vpn \
     gluon-config-mode-geo-location \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
