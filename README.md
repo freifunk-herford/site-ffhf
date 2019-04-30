@@ -2,7 +2,7 @@
 
     git clone https://github.com/freifunk-gluon/gluon.git             # Get the official Gluon repository
     cd gluon
-    git checkout v2018.2                                           # switch to stable release - never use master !
+    git checkout v2018.2.1                                           # switch to stable release - never use master !
     git clone https://github.com/freifunk-herford/site-ffhf.git site  # Get the Freifunk Herford site repository
     cd site 
     git checkout v2018                                              # Checkout Version 0.0.8
@@ -19,7 +19,7 @@ sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev 
 
 #### Gluon versions used for specific Herford Freifunk Firmware builds
 
-- 0.0.8: v2018.2    tag v0.0.8
+- 0.0.8: v2018.2.1  tag v0.0.8
 - 0.0.6: v2016.2.1  tag v0.0.6
 - 0.0.5: v2016.1.6  tag v0.0.5
 - 0.0.4: v2016.1.5  tag v0.0.4
