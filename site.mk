@@ -25,7 +25,9 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-geo-location-osm \
     gluon-config-mode-contact-info \
     gluon-config-mode-core \
+    gluon-config-mode-outdoor \
     gluon-web-autoupdater \
+    gluon-web-wifi-config \
     gluon-web-private-wifi \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
