@@ -27,7 +27,6 @@ GLUON_SITE_PACKAGES := \
     gluon-config-mode-core \
     gluon-web-autoupdater \
     gluon-web-private-wifi \
-    gluon-web-wifi-config \
     gluon-ebtables-filter-multicast \
     gluon-ebtables-filter-ra-dhcp \
     gluon-mesh-vpn-fastd \
