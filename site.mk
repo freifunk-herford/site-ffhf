@@ -12,8 +12,8 @@ GLUON_FEATURES := \
     web-advanced \
     web-logging \
     web-wizard
- 
- 
+
+
 GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-respondd \
@@ -37,15 +37,17 @@ GLUON_SITE_PACKAGES := \
     haveged \
     iptables \
     iwinfo
- 
-DEFAULT_GLUON_RELEASE := 0.0.8
 
-DEFAULT_GLUON_CHECKOUT := v2018.2.1
- 
+DEFAULT_GLUON_RELEASE := 0.0.9
+
+DEFAULT_GLUON_CHECKOUT := v2019.1
+
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
- 
-GLUON_PRIORITY ?= 0.22
- 
+
+GLUON_DEPRECATED := upgrade
+
+GLUON_PRIORITY ?= 0.23
+
 GLUON_REGION ?= eu
- 
+
 GLUON_LANGS ?= en de
