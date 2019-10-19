@@ -15,7 +15,7 @@ Please see [the official Gluon repository](https://github.com/freifunk-gluon/glu
 
 To compile the firmware on an fresh installed Ubuntu 16.04 server you need to install:
 
-sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion 
+    sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion 
 
 
 #### Gluon versions used for specific Herford Freifunk Firmware builds
