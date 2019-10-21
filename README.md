@@ -2,9 +2,10 @@
 
 Please see [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for an in-depth explanation of the build process.
 
-To compile the firmware on an fresh installed Ubuntu 16.04 server you need to install:
+To compile the firmware on an fresh installed Ubuntu you need to install:
 
     sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion
+
 
     git clone https://github.com/freifunk-gluon/gluon.git              # Get the official Gluon repository
     cd gluon
