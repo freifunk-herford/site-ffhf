@@ -1,21 +1,21 @@
 #### How to build the Freifunk Herford Firmware
 
-    git clone https://github.com/freifunk-gluon/gluon.git             # Get the official Gluon repository
-    cd gluon
-    git checkout v2019.1                                           # switch to stable release - never use master !
-    git clone https://github.com/freifunk-herford/site-ffhf.git site  # Get the Freifunk Herford site repository
-    cd site
-    git checkout v2019                                              # Checkout Version 0.0.9
-    cd ..
-    make update                                                       # Get other repositories used by Gluon
-    make -j4 GLUON_TARGET=ar71xx-generic                                # Build Gluon
-    make -j4 GLUON_TARGET=ar71xx-tiny                                   # Build Gluon
-
 Please see [the official Gluon repository](https://github.com/freifunk-gluon/gluon) for an in-depth explanation of the build process.
 
 To compile the firmware on an fresh installed Ubuntu 16.04 server you need to install:
 
-    sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion 
+    sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion
+
+    git clone https://github.com/freifunk-gluon/gluon.git              # Get the official Gluon repository
+    cd gluon
+    git checkout v2019.1                                               # switch to stable release - never use master !
+    git clone https://github.com/freifunk-herford/site-ffhf.git site   # Get the Freifunk Herford site repository
+    cd site
+    git checkout v2019                                                  # Checkout Version 0.0.9
+    cd ..
+    make update                                                         # Get other repositories used by Gluon
+    make -j4 GLUON_TARGET=ar71xx-generic GLUON_BRANCH=stable            # Build Gluon
+    make -j4 GLUON_TARGET=ar71xx-tiny GLUON_BRANCH=stable               # Build Gluon
 
 
 #### Gluon versions used for specific Herford Freifunk Firmware builds
