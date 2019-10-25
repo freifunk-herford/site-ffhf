@@ -1,0 +1,4 @@
+GLUON_SITE_FEEDS="ssidchanger"
+PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunk-nord/gluon-ssid-changer.git
+PACKAGES_SSIDCHANGER_COMMIT=7b5b7cab11d186696b4d2319f74145b0aaeb0c3c # <-- set the newest commit ID here
+PACKAGES_SSIDCHANGER_BRANCH=master
