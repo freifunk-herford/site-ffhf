@@ -9,7 +9,7 @@ To compile the firmware on an fresh installed Ubuntu you need to install:
 
     git clone https://github.com/freifunk-gluon/gluon.git              # Get the official Gluon repository
     cd gluon
-    git checkout v2019.1                                               # switch to stable release - never use master !
+    git checkout v2019.1.1                                             # switch to stable release - never use master !
     git clone https://github.com/freifunk-herford/site-ffhf.git site   # Get the Freifunk Herford site repository
     cd site
     git checkout v2019                                                  # Checkout Version 0.0.9
@@ -21,11 +21,12 @@ To compile the firmware on an fresh installed Ubuntu you need to install:
 
 #### Gluon versions used for specific Herford Freifunk Firmware builds
 
-- 0.0.9: v2019.1    tag v0.0.9
-- 0.0.8: v2018.2.1  tag v0.0.8
-- 0.0.6: v2016.2.1  tag v0.0.6
-- 0.0.5: v2016.1.6  tag v0.0.5
-- 0.0.4: v2016.1.5  tag v0.0.4
-- 0.0.3: v2016.1.5  tag v0.0.3
-- 0.0.2: v2016.1.4  tag v0.0.2
-- 0.0.1: v2015.1.2  tag v0.0.1
+- 0.0.10: v2019.1.1  tag v0.0.10
+- 0.0.9:  v2019.1    tag v0.0.9
+- 0.0.8:  v2018.2.1  tag v0.0.8
+- 0.0.6:  v2016.2.1  tag v0.0.6
+- 0.0.5:  v2016.1.6  tag v0.0.5
+- 0.0.4:  v2016.1.5  tag v0.0.4
+- 0.0.3:  v2016.1.5  tag v0.0.3
+- 0.0.2:  v2016.1.4  tag v0.0.2
+- 0.0.1:  v2015.1.2  tag v0.0.1
