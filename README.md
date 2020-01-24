@@ -12,7 +12,7 @@ To compile the firmware on an fresh installed Ubuntu you need to install:
     git checkout v2019.1.1                                             # switch to stable release - never use master !
     git clone https://github.com/freifunk-herford/site-ffhf.git site   # Get the Freifunk Herford site repository
     cd site
-    git checkout v2019                                                  # Checkout Version 0.0.9
+    git checkout v2019                                                  # Checkout Version
     cd ..
     make update                                                         # Get other repositories used by Gluon
     make -j4 GLUON_TARGET=ar71xx-generic GLUON_BRANCH=stable            # Build Gluon
