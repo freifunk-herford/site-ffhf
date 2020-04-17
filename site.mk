@@ -18,7 +18,7 @@ GLUON_SITE_PACKAGES := \
     gluon-alfred \
     gluon-respondd \
     gluon-autoupdater \
-		gluon-ssid-changer \
+    gluon-ssid-changer \
     gluon-config-mode-hostname \
     gluon-config-mode-autoupdater \
     gluon-config-mode-mesh-vpn \
@@ -39,15 +39,15 @@ GLUON_SITE_PACKAGES := \
     iptables \
     iwinfo
 
-DEFAULT_GLUON_RELEASE := 0.0.11
+DEFAULT_GLUON_RELEASE := 0.0.12
 
-DEFAULT_GLUON_CHECKOUT := v2020.1
+DEFAULT_GLUON_CHECKOUT := v2020.1.1
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_DEPRECATED := upgrade
 
-GLUON_PRIORITY ?= 0.23
+GLUON_PRIORITY ?= 0.24
 
 GLUON_REGION ?= eu
 

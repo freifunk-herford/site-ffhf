@@ -4,12 +4,12 @@ Please see [the official Gluon repository](https://github.com/freifunk-gluon/glu
 
 To compile the firmware on an fresh installed Ubuntu you need to install:
 
-    sudo aptitude install make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion
+    sudo apt-get install git make gcc g++ libncurses5-dev zlib1g-dev python libssl-dev unzip subversion
 
 
     git clone https://github.com/freifunk-gluon/gluon.git              # Get the official Gluon repository
     cd gluon
-    git checkout v2020.1                                               # switch to stable release - never use master !
+    git checkout v2020.1.1                                             # switch to stable release - never use master !
     git clone https://github.com/freifunk-herford/site-ffhf.git site   # Get the Freifunk Herford site repository
     cd site
     git checkout v2020                                                  # Checkout Version
@@ -21,7 +21,8 @@ To compile the firmware on an fresh installed Ubuntu you need to install:
 
 #### Gluon versions used for specific Herford Freifunk Firmware builds
 
-- 0.0.11: v2020.1  tag v0.0.11
+- 0.0.12: v2020.1.1  tag v0.0.12
+- 0.0.11: v2020.1    tag v0.0.11
 - 0.0.10: v2019.1.1  tag v0.0.10
 - 0.0.9:  v2019.1    tag v0.0.9
 - 0.0.8:  v2018.2.1  tag v0.0.8
