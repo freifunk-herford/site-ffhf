@@ -35,19 +35,18 @@ GLUON_SITE_PACKAGES := \
     gluon-radvd \
     gluon-setup-mode \
     gluon-status-page \
-    haveged \
     iptables \
     iwinfo
 
-DEFAULT_GLUON_RELEASE := 0.0.12
+DEFAULT_GLUON_RELEASE := 0.0.13
 
-DEFAULT_GLUON_CHECKOUT := v2020.1.1
+DEFAULT_GLUON_CHECKOUT := v2020.2
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_DEPRECATED := upgrade
 
-GLUON_PRIORITY ?= 0.24
+GLUON_PRIORITY ?= 0.25
 
 GLUON_REGION ?= eu
 
